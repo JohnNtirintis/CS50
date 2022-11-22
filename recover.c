@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
    
-    //To avoid repetition we'll declare an const int
+    //To avoid repetition we'll declare a const int
     //That is equal to a JPG block (512 Bytes)
     const int BLOCK_SIZE = 512;
     typedef uint8_t BYTE;
