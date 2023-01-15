@@ -1,5 +1,9 @@
 # Simulate a sports tournament
 
+# Usage:
+# python tournament.py 2018m.csv
+# python tournament.py 2019w.csv
+
 import csv
 import sys
 import random
