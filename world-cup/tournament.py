@@ -1,9 +1,5 @@
 # Simulate a sports tournament
 
-# Usage:
-# python tournament.py 2018m.csv
-# python tournament.py 2019w.csv
-
 import csv
 import sys
 import random
@@ -24,6 +20,7 @@ def main():
     reader = csv.DictReader(f)
     for row in reader:
         teams.append(row)
+    f.close()
 
     counts = {}
     # Converting teams rating to int to use later
@@ -74,6 +71,7 @@ def simulate_tournament(teams):
         winner = simulate_round(teams_copy)
         teams_copy = winner.copy()
     team = teams_copy[0]["team"]
+    del teams_copy[:]
     return team
 
 
