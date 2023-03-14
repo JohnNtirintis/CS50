@@ -85,7 +85,10 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
 // Blur image
 void blur(int height, int width, RGBTRIPLE image[height][width])
 {
-    int blur = 0;
+    
+    //I still need to work on this, since i havent found a proper solution. :)
+
+    /**int blur = 0;
     int red, green, blue;
     for(int i = 0; i < height; i++){
         for(int j = 0; j < width / 2; j++){
@@ -103,12 +106,12 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
             else if(i == 0 && (j >= 0 || j <= width)){
                 
             }
+        **/
 
 
 
-
-        }
-    }
+        
+    
 
     return;
 }
