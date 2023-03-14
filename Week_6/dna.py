@@ -1,6 +1,9 @@
 import csv
 import sys
 
+#I know this solution is sub-optimal and there is a huge memory leak in the function longest_streak
+#Will come back to it at a later date
+
 #python dna.py databases/large.csv sequences/5.txt
 #python dna.py databases/small.csv sequences/5.txt
 
