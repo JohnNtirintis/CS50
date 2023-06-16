@@ -18,7 +18,7 @@ To run these solutions, you'll need a C compiler. If you're on a Linux or Mac sy
 
 ## Compiling
 
-To compile the code, navigate into the directory containing "pennies.c" or "supermario.c" and run the following command:
+To compile the code, navigate into the directory containing "plurality.c" or "runoff.c" and run the following command:
 
 ```sh
 gcc -o plurality plurality.c
